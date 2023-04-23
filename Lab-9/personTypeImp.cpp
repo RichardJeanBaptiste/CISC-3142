@@ -6,7 +6,7 @@
 using namespace std;
 
 void personType::print() const{
-    cout << "First Name: "<< getFirstName() << "Last Name: " << getLastName() << "\n";
+    cout << "\nFirst Name: "<< getFirstName() << "\nLast Name: " << getLastName() << "\n";
 }
 
 void personType::setName(string first, string last) {
@@ -29,7 +29,7 @@ string personType::getLastName() const{
     //               is returned.
 
 
-personType::personType(string first = "", string last = ""){
+personType::personType(string first, string last){
     firstName = first;
     lastName = last;
 };

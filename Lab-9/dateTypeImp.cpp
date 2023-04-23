@@ -37,7 +37,7 @@ void dateType::printDate() const{
 };
     //Function to output the date in the form mm-dd-yyyy.
 
-dateType::dateType(int month = 1, int day = 1, int year = 1900){
+dateType::dateType(int month, int day, int year){
     dMonth = month;
     dYear = year;
     dDay = day;
